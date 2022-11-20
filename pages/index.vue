@@ -1,0 +1,28 @@
+<template>
+  <div
+    class="mx-auto max-w-5xl h-full flex flex-col justify-center items-center p-4 gap-4"
+  >
+    <div class="text-sm font-bold uppercase mb-1">Here's a random emoji</div>
+      <EmojiOfTheDay />
+    <div
+      class="flex justify-start items-center gap-5 my-4 border rounded px-4 py-2 border-gray-600 dark:border-opacity-100 border-opacity-25 "
+    >
+      <NuxtLink
+        href="https://github.com/bencsn"
+        target="blank"
+        class="text-button flex items-center gap-1"
+        ><IconCode /> GitHub</NuxtLink
+      >
+      <NuxtLink
+        href="https://www.linkedin.com/in/ben-chomsang-416353a8/"
+        target="blank"
+        class="text-button flex items-center gap-1"
+        ><IconUsers /> LinkedIn</NuxtLink
+      >
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+export default {};
+</script>
