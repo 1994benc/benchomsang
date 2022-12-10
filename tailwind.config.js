@@ -10,7 +10,14 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'benspink':'#f9a8d4',
+        'bensgreen':'#00b09b',
+        'bensdarkergreen':'#00a896',
+        'bensdarkestgreen':'#009688',
+      }
+    },
   },
   plugins: [],
 }

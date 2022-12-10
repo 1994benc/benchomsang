@@ -4,7 +4,7 @@
       <div>
         <div class="flex items-center gap-1">
           <div class="uppercase font-bold">Ben Chomsang</div>
-          <div class="text-xs text-green-500">&</div>
+          <div class="text-xs text-bensgreen">&</div>
         </div>
         <div class="text-xs opacity-70">Software Engineering & Plants</div>
       </div>
