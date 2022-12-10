@@ -2,9 +2,14 @@
   <div class="flex flex-col gap-4">
     <div>
       Ben Chomsang is a full-stack software
-      <span class="wizard">wizard</span> currently working at Zinc, where he
-      uses his magical coding powers to automate background checking for growing
-      companies.
+      <span class="wizard">wizard</span> currently working at
+      <a
+        target="_blank"
+        class="font-semibold hover:text-bensgreen"
+        href="https://zincwork.com"
+        >Zinc</a
+      >, where he uses his magical coding powers to automate background checking
+      for growing companies.
     </div>
 
     <div>
@@ -29,7 +34,6 @@ export default {};
 <style scoped>
 .wizard {
   @apply text-benspink font-semibold;
- 
 }
 
 .wizard::after {
