@@ -1,6 +1,7 @@
 <template>
   <div
-    class="mx-auto max-w-5xl h-full flex flex-col justify-center items-center p-4 gap-6"
+    style="min-height: 100vh"
+    class="mx-auto max-w-5xl flex flex-col justify-start items-center mb-16 mt-32 p-6 gap-6"
   >
     <div class="max-w-md my-6"><BensBio /></div>
     <div class="text-sm mb-1">Here's a random emoji</div>
